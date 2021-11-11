@@ -8,6 +8,9 @@ public class Bike implements Vehicule{
 	public Bike(String brand) {
 		this.brand = brand;
 	}
+	public Bike(String brand, Discount discount) {
+		this.brand = brand;
+	}
 	
 	@Override
 	public long getValue() {

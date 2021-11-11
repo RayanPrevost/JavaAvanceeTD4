@@ -7,6 +7,7 @@ public class Discount {
 	public Discount(int value) {
 		this.setValue(value);
 	}
+	
 
 	public int getValue() {
 		return value;

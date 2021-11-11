@@ -10,15 +10,15 @@ class GarageTest4 {
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
 	}
-/*
+
 	@Test
 	void garageEquality() {
 		Garage garage1 = new Garage();
 		Garage garage2 = new Garage();
 
-		Car car1 = new Car("BMW", "42abc75" , 90000);
-		Car car2 = new Car("Lada", "42abc76", 6500, 2);
-		Car car3 = new Car("Lada", "42abc76", 5500, 1);
+		Car car1 = new Car("BMW", 90000);
+		Car car2 = new Car("Lada", 6500, 2);
+		Car car3 = new Car("Lada", 5500, 1);
 		Bike bike1 = new Bike("Scott");
 		Bike bike2 = new Bike("Merlin",new Discount(50));
 		Bike bike3 = new Bike("Merlin");
@@ -39,6 +39,6 @@ class GarageTest4 {
 			 
 		assertEquals(garage1, garage2);
 		}
-*/
+
 	}
 

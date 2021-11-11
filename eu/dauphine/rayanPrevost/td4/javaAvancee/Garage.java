@@ -1,6 +1,7 @@
 package eu.dauphine.rayanPrevost.td4.javaAvancee;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.Objects;
 
@@ -18,6 +19,10 @@ public class Garage {
 	
 	public void addCar(Car car) {
 		this.garage.add(Objects.requireNonNull(car,"Impossible Car is null"));
+	}
+	public void add(Vehicule vehicule) {
+		this.garage.add(Objects.requireNonNull(vehicule,"Impossible Car is null"));
+
 	}
 	
 	public static int getIdGarage() {
